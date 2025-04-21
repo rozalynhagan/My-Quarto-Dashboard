@@ -1,0 +1,55 @@
+---
+title: "Hagan, Rozalyn-Website"
+format:
+  dashboard:
+    orientation: columns
+    nav-buttons: [linkedin]
+    linkedin: https://www.linkedin.com/in/rozalyn-hagan-21a2b234b/
+---
+[![GitHub](https://img.shields.io/badge/View%20on-GitHub-black?logo=github)](https://github.com/rozalynhagan/Dashboards_Shiny_Website)
+
+
+## Personal Info {width=50%}
+
+### My Image {height=65%}
+Profile Picture:
+![Profile](images/IMG_8344.JPG){height=75% width=100%}
+
+### Bio {height=35%}
+
+**Rozalyn Hagan**
+
+
+Hardworking student with 7 years of work experience aiming to grow as a marketing manager with an emphasis on entertainment. 
+
+
+Based in Southern California
+
+
+## Career Aspirations
+
+### Career Aspirations {height=43%}
+Career Aspirations:
+
+I want to work for Mclaren's F1 social media and marketing team. My knowledge and passion for the sport mixed with my background in digital media will allow me to flourish in such a creative role.
+
+
+### My Skills {height=37%}
+My Skills:
+
+- 5 years of management, being promoted 4 times within 2 years
+
+- Digital Media
+- Event Planning
+- B2C Sales
+
+### My Education {height=30%}
+
+My Education:
+
+- H.S., Claremont High School
+
+- A.S., Citrus College
+
+- B.A., Cal Poly Pomona
+

@@ -1,0 +1,22 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "My Quarto Dashboard Website"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: dashboard.qmd
+        text: Dashboard
+      - href: shiny-apps.qmd
+        text: Shiny Apps
+      - href: shiny-live.qmd
+        text: Shinylive
+
+format:
+  html:
+    theme: minty
+    toc: true
+

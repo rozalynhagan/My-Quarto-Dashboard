@@ -1,0 +1,20 @@
+---
+title: "Essay on Shiny Apps"
+format:
+  html:
+    toc: true          # 👈 enables sidebar ToC
+    toc-depth: 2       # 👈 includes h2 and h3 headings
+    toc-location: left # 👈 moves ToC to the left sidebar (optional)
+---
+
+## What is Shiny?
+
+Shiny is an R package for building interactive web apps, no web development necessary. Users can take advantage of interactive features like drop downs, buttons, and even sliders. It spits out outputs as soon as inputs are added allowing for more efficient responses. Using Shiny is a very easy way to share work and allow others to access it from anywhere. 
+
+## Features
+
+The UI allows users to customize layouts and designs with ease. The server takes any inputs and instantly gives an output as it is built on reactive programming. There is no delay once the input is entered. Users are able to take data and create charts such as scatter plots and bar charts. The package is highly customizable and allows users to easily navigate through projects.
+
+## Why Use Shiny?
+
+Shiny makes it easy to turn projects into web apps without needing to know proper development techniques. Data is interactive, work is shareable at all levels of technological capabilities, as well as quick and easy implementation from R. Shiny is an efficient was to turn work into an interactive webface that is easy to share with others.

@@ -1,0 +1,10 @@
+---
+title: "Essay on Shiny Live"
+format:
+  html:
+    toc: true          # 👈 enables sidebar ToC
+    toc-depth: 2       # 👈 includes h2 and h3 headings
+    toc-location: left # 👈 moves ToC to the left sidebar (optional)
+---
+
+Shinylive is the ability to run Shiny apps solely in a browser, this framework was developed using WebAssembly so that the Shiny app does not need a server. With this feature users are able to use host websites like GitHub to run the code. Traditional Shiny uses a server but Shinylive is able to run directly in browser. Shinylive is limited on computations as it relies on the capabilities of the device. It is more complex from the traditional Shiny app as it needs to be maintained more frequently. But it is best used for larger apps or team collaboration where the traditional app is more useful for demos and smaller projects. Safety features are not able to be easily embedded with Shinlylive since the code is visible to anyone in the browser. It is most useful for projects that do not require real time data. Since it is just in a browser, users are able to easily access it without a ton of set up.

@@ -1,0 +1,61 @@
+---
+title: "Hagan, Rozalyn - Iris Dashboard"
+format:
+  dashboard:
+    orientation: rows
+---
+
+```{r setup, include=FALSE}
+library(ggplot2)
+```
+
+
+## {.sidebar}
+
+This dashboard provides three different views of the Iris dataset, which contains measurements of flower features across three iris species: setosa, versicolor, and virginica. Here's what each chart helps us understand:
+
+Petal Scatter Plot
+The scatter plot shows the relationship between petal width and petal length, color-coded by species. This is especially useful for visualizing clusters and distinguishing species based on petal size. It’s often used in classification tasks or to explore how features relate to each other.
+
+Species Count Bar Chart
+The bar chart provides a simple count of how many samples belong to each species. It gives an immediate understanding of the class distribution, which is useful in determining if the dataset is balanced or imbalanced—important in machine learning workflows.
+
+Sepal Length Box Plot
+The box plot illustrates the distribution of sepal length for each species, showing medians, quartiles, and potential outliers. It’s a great tool for comparing variability and central tendency, and helps identify which species has generally longer or more consistent sepal lengths.
+
+Together, these visualizations offer a compact, interactive overview of the Iris dataset, revealing patterns and supporting data-driven insights for classification or exploratory analysis.
+
+
+
+
+# Scatter {height="70%"}
+
+```{r}
+#| title: Petal Length vs. Width
+ggplot(iris, aes(x = Petal.Width, y = Petal.Length, color = Species)) +
+  geom_point(size = 3, alpha = 0.8) +
+  labs(x = "Petal Width (cm)", y = "Petal Length (cm)") +
+  theme_minimal()
+
+```
+
+# Bar
+
+```{r}
+#| title: Number of Samples per Species
+ggplot(iris, aes(x = Species)) +
+  geom_bar(fill = "seagreen") +
+  labs(x = "Species", y = "Count") +
+  theme_minimal()
+```
+
+# Box
+
+```{r}
+#| title: Sepal Length by Species
+ggplot(iris, aes(x = Species, y = Sepal.Length, fill = Species)) +
+  geom_boxplot(alpha = 0.7) +
+  labs(x = "Species", y = "Sepal Length (cm)") +
+  theme_minimal() +
+  theme(legend.position = "none")
+```
